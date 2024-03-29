@@ -16,7 +16,8 @@ body{
 }
 
 .timeline {
-    flex: 0 0 800px;
+    /* flex: 0 0 800px; */
+    display:flex;
     font-family: 'Inter', sans-serif;
     border-left: 1px solid #2F3336;
     border-right: 1px solid #2F3336;

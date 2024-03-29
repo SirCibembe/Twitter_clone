@@ -1,0 +1,40 @@
+*{
+    text-decoration: none;
+
+}
+.sidebar{
+    position: sticky;
+    width: 20%;
+    margin-left: 1.5rem;
+    margin-top: 1rem;
+    height: 100vh;
+}
+.sidebar-content{
+    height: 90%;
+}
+.page-title-sidebare {
+    font-size: 1rem;
+    font-weight: bold;
+    font-family: 'Inter', sans-serif;
+    color: white;
+}
+.side-nav{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.user-footer{
+    display: flex;
+    justify-content: space-between;
+}
+.contenu-footer{
+    font-family: 'Inter', sans-serif;
+    color: #D9D9D9;
+    font-size: 1rem;
+}
+.contenu-footer h5{
+    margin: 0px;
+}
+.contenu-footer img{
+    width: 15px;
+}

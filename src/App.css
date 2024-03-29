@@ -7,7 +7,12 @@ body{
     margin: 0 auto;
     max-width: 1800px;
 }
-
+.main{
+    display:flex;
+}
+.milieu{
+    width: 55%;
+}
 #root{
     width: 100%;
     display: flex;
@@ -19,6 +24,7 @@ body{
     font-family: 'Inter', sans-serif;
     border-left: 1px solid #2F3336;
     border-right: 1px solid #2F3336;
+
 }
 
 .header {
