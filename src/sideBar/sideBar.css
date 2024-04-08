@@ -2,8 +2,9 @@
     text-decoration: none;
 
 }
+
 .sidebar{
-    position: sticky;
+    position: sticky;top: 0;
     width: 20%;
     margin-left: 1.5rem;
     margin-top: 1rem;

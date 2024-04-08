@@ -8,6 +8,7 @@
     font-family: 'Inter', sans-serif;
 }
 .search-twitter{
+    position:sticky;top:0;
     width: 80%;
     background-color: #202327;
     border-radius: 20px;
@@ -92,11 +93,12 @@
 }
 .btnfollow{
     font-size: 1rem;
-    font-weight: 700;
-    border-radius: 30px;
+    font-weight: 100;
+    height: 30px;
+    border-radius: 20px;
     width: 100px;
     border: none;
-    padding: 5px;
+    padding: 2px;
 }
 .tweet-title-author2 p{
     font-size: .8rem;
@@ -106,4 +108,9 @@
     display: flex;
     gap: .5rem;
     align-items: center;
+}
+.info-content{
+    margin-left: 3rem;
+    margin-right: 2.5rem;
+
 }

@@ -1,24 +1,24 @@
 import React from "react";
 import Header from "../Components/Header";
-import ListsFill from '../assets/icon/iconblanc/Lists-Fill.svg';
+import MoreFill from '../assets/icon/iconblanc/More.svg';
 
 /**
- * Lists Screen UI Element
+ * More Screen UI Component
  * @returns {React.JSX.Element}
  */
 
-const Lists = () => {
+const More = () => {
    return (
       <main role="main" className="main-container">
          <Header
-            title='Lists'
-            imgURL={ListsFill}
+            title="More"
+            imgURL={MoreFill}
          />
          <div className="p-4">
-            <h1>Lists Screen</h1>
+            <h1>More Screen</h1>
          </div>
       </main>
    );
 };
 
-export default Lists;
+export default More;
