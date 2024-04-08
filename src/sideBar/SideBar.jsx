@@ -19,10 +19,10 @@ export default function SideBar() {
         <div className="sidebar">
             <div className="sidebar-content">
 
-                <Link to="">
+                <Link to="/">
                     <img src={Tweeter} alt="" />
                 </Link>
-                <Link to="">
+                <Link to="/">
                     <div className="side-nav">
                         <img src={HomeFill} alt="" />
                         <h1 className="page-title-sidebare">Home</h1>
@@ -31,7 +31,7 @@ export default function SideBar() {
 
 
 
-                <Link to="">
+                <Link to="/explore">
                     <div className="side-nav">
                         <img src={Explore} alt="" />
                         <h1 className="page-title-sidebare">Explore</h1>

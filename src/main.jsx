@@ -6,17 +6,15 @@ import App from './App.jsx'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import Timeline from './Components/Timeline.jsx'
 import Explore from './Explore/Explore.jsx'
-import Notifications from './Notifications/Notifications.jsx'
+import Notifications from './Notifications/Notifications.jsx'; 
+import LayoutRoute from "./Routes/LayoutRoute.jsx";
+import "./css/index.css"
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <App />,
+    element: <LayoutRoute />,
     children: [
-      {
-        path: '/home',
-        element: <Timeline />,
-      },
       {
         path: '/',
         element: <Timeline />,
@@ -31,10 +29,6 @@ const router = createBrowserRouter([
       },
     ]
   },
-  {
-    path: "/home",
-    element: <App />
-  }
 ])
 
 ReactDOM.createRoot(document.getElementById('root')).render(

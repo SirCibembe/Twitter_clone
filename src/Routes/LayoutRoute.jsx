@@ -1,6 +1,6 @@
 import React from "react";
-import Sidebar from "../components/Sidebar";
-import Trends from '../components/Trends';
+import Sidebar from "../sideBar/SideBar";
+import Trends from '../trends/Trends';
 import { Outlet } from "react-router-dom";
 
 /**
