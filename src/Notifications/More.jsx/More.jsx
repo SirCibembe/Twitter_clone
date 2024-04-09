@@ -1,6 +1,5 @@
 import React from "react";
-import Header from "../Components/Header";
-import MoreFill from '../assets/icon/iconblanc/More.svg';
+import Header from "../../Components/Header";
 
 /**
  * More Screen UI Component
@@ -12,7 +11,6 @@ const More = () => {
       <main role="main" className="main-container timeline w-[600px]">
          <Header
             title="More"
-            imgURL={MoreFill}
          />
          <div className="p-4">
             <h1>More Screen</h1>

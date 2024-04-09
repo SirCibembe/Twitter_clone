@@ -7,7 +7,7 @@ export default function Timeline(){
 
     return (
         <main className="timeline w-[600px]">
-            <Header />
+            <Header title="Home" />
             <TweetEditor />
             <Tweets />
         </main>
