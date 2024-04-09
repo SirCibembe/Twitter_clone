@@ -9,7 +9,7 @@ import MessagesFill from '../assets/icon/iconblanc/Messages-Fill.svg';
 
 const Messages = () => {
    return (
-      <main role="main" className="main-container">
+      <main role="main" className="main-container timeline w-[600px]">
          <Header
             title="Messages"
             imgURL={MessagesFill}

@@ -9,7 +9,7 @@ import MoreFill from '../assets/icon/iconblanc/More.svg';
 
 const More = () => {
    return (
-      <main role="main" className="main-container">
+      <main role="main" className="main-container timeline w-[600px]">
          <Header
             title="More"
             imgURL={MoreFill}

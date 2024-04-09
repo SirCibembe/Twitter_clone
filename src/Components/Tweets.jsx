@@ -1,6 +1,5 @@
 import React from "react";
 import Tweet from "./Tweet";
-
 import TweetAvatar1 from "../assets/img/tweet-avatar1.svg"
 import TweetAvatar2 from "../assets/img/tweet-avatar2.svg"
 import TweetAvatar3 from "../assets/img/tweet-avatar3.svg"

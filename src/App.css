@@ -167,18 +167,13 @@ body{
     font-size: 1rem;
 }
 
-.tweet-image{
-    width: 100%;
-    padding:  .3rem 0 0 0;
-}
-
 .tweet-image img{
     max-width: 100%;
     height: auto;
     border-color: #2F3336;
     border-style: solid;
-    border-width: 1px;
 }
+
 
 .tweet-actions {
     display: flex;

@@ -1,6 +1,6 @@
 import React from "react";
 import BookmarksFill from '../assets/icons/Bookmarks-Fill.svg';
-import Header from "../components/header/Header";
+import Header from "../Components/header/Header";
 
 /**
  * Bookmarks Screen UI Component
@@ -9,7 +9,7 @@ import Header from "../components/header/Header";
 
 const Bookmarks = () => {
    return (
-      <main role="main" className="main-container">
+      <main role="main" className="main-container timeline w-[600px]" >
          <Header
             title="Bookmarks"
             imgURL={BookmarksFill}

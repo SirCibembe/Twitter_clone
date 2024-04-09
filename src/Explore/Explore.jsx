@@ -20,5 +20,4 @@ const Explore = () => {
       </main>
    );
 };
-
 export default Explore;

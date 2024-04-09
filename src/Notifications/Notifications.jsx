@@ -9,7 +9,7 @@ import NotificationsFill from '../assets/icon/iconblanc/Notifications-Fill.svg';
 
 const Notifications = () => {
    return (
-      <main role="main" className="main-container">
+      <main role="main" className="main-container timeline w-[600px]">
          <Header
             title="Notifications"
             imgURL={NotificationsFill}

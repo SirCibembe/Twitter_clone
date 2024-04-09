@@ -39,7 +39,7 @@ export default function SideBar() {
                 </Link>
 
 
-                <Link to="">
+                <Link to="/notifications">
                     <div className="side-nav">
                         <img src={Notifications} alt="" />
                         <h1 className="page-title-sidebare">Notifications</h1>
