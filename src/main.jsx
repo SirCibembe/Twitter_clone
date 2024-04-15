@@ -13,6 +13,15 @@ import ProfileDetails from './ProfileDetail/ProfileDetails.jsx';
 import LayoutRoute from "./Routes/LayoutRoute.jsx";
 import More from './Notifications/More.jsx/More.jsx'
 import Bookmarks from './Bookmarks/Bookmarks.jsx';
+
+// profiles details screens
+
+import Articles from './Profile/sceens/Articles.jsx';
+import Highlights from './Profile/sceens/Highlights.jsx';
+import Like from './Profile/sceens/Like.jsx';
+import Posts from './Profile/sceens/Posts.jsx';
+import Media from './Profile/sceens/Media.jsx';
+import Replies from './Profile/sceens/Replies.jsx';
 import "./css/index.css";
 
 const router = createBrowserRouter([
@@ -46,7 +55,33 @@ const router = createBrowserRouter([
       },
       {
         path: '/profile',
-        element: <Profile />
+        element: <Profile />,
+        children: [
+          {
+            path: '/profile',
+            element: <Posts />
+          }, 
+          {
+            path: '/profile/article',
+            element: <Articles />
+          }, 
+          {
+            path: '/profile/media',
+            element: <Media />
+          },
+          {
+            path: '/profile/like',
+            element: <Like />
+          },
+          {
+            path: '/profile/highlights',
+            element: <Highlights />
+          },
+          {
+            path: '/profile/replies',
+            element: <Replies />
+          }
+        ]
       },
       {
         path: '/profileDetail',

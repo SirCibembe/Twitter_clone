@@ -12,7 +12,7 @@ import { Outlet } from "react-router-dom";
 
 const Profile = () => {
    return (
-      <main role="main" className="main-container relative">
+      <main role="main" className="main-container relative main-container timeline w-[600px]">
          <Header
             title={"Profile"}
          />

@@ -1,17 +1,17 @@
 *{
     text-decoration: none;
-
 }
 
 .sidebar{
     position: sticky;top: 0;
     width: 20%;
-    margin-left: 1.5rem;
     margin-top: 1rem;
     height: 100vh;
+    
 }
 .sidebar-content{
-    height: 90%;
+    height: 80%;
+    margin-left: -25px;
 }
 .page-title-sidebare {
     font-size: 1rem;
@@ -23,19 +23,34 @@
     display: flex;
     align-items: center;
     gap: 1rem;
+    padding-bottom: 15px;  
+    margin-top: 10px;
+}
+.side-nav:hover{
+    background-color: #080808;
+    padding-left: 3px;
+    border-radius: 5%;
+    
 }
 .user-footer{
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
 }
 .contenu-footer{
     font-family: 'Inter', sans-serif;
-    color: #D9D9D9;
-    font-size: 1rem;
+    color: #7c7b7b;
+    font-size: 15px;
 }
 .contenu-footer h5{
     margin: 0px;
+    
 }
 .contenu-footer img{
     width: 15px;
+}
+.sidebar-content button{
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
