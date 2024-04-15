@@ -13,7 +13,7 @@ import ProfileDetails from './ProfileDetail/ProfileDetails.jsx';
 import LayoutRoute from "./Routes/LayoutRoute.jsx";
 import More from './Notifications/More.jsx/More.jsx'
 import Bookmarks from './Bookmarks/Bookmarks.jsx';
-import "./css/index.css"
+import "./css/index.css";
 
 const router = createBrowserRouter([
   {
