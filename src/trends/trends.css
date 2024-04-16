@@ -8,8 +8,10 @@
     font-family: 'Inter', sans-serif;
 }
 .search-twitter{
+    margin-left: 33px;
+    margin-top: 20px;
     position:sticky;top:0;
-    width: 80%;
+    width: 95%;
     background-color: #202327;
     border-radius: 20px;
     padding: .7rem;
@@ -17,12 +19,14 @@
     align-items: center;
 }
 .search-twitter input{
+    
     background: none;
     border: inherit;
-    margin-left: 1rem;
+    margin-left: -1rem;
     font-size: 1rem;
     outline: none;
-    color: white;
+    color: rgb(243, 241, 241);
+    margin-left: 10px;
 }
 
 .search-twitter img{
@@ -31,8 +35,9 @@
 }
 
 .trends-for-you{
+    margin-left: 33px;
     background-color: #202327;
-    width: 80%;
+    width: 95%;
     border-radius: 20px;
     padding: .7rem;
     display: flex;
@@ -58,11 +63,20 @@
 .squid-conent{
     display: flex;
     flex-direction: column;
+
+}
+.squid-conent:hover{
+    padding-left: 5px;
+    
 }
 
 .squid-conent, h3, p{
     margin-top: 0px;
     margin-bottom: 0px;
+}
+.show-more:hover{
+    border-bottom: 2px solid blue;
+    margin-right: 180px;
 }
 .squid-conent h3{
     color: rgb(200, 200, 200);
@@ -72,14 +86,19 @@
 }
 
 .who-to-follow{
+    margin-left: 33px;
     background-color: #202327;
-    width: 80%;
+    width: 95%;
     border-radius: 20px;
     padding: .7rem;
     display: flex;
     flex-direction: column;
     gap: 1rem;
 }
+.follow:hover{
+    padding-left: 5px;
+}
+    
 .follow{
     display: flex;
     align-items: center;
@@ -110,7 +129,9 @@
     align-items: center;
 }
 .info-content{
+    width: 95%;
     margin-left: 3rem;
     margin-right: 2.5rem;
+    padding-left: 13px;
 
 }

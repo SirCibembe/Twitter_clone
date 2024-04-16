@@ -99,14 +99,23 @@ body{
     background-color: transparent;
     border: none;
 }
+.tweet-editor-actions button:hover{
+    /* background-color: rgb(114, 113, 113); */
+    border-radius: 50%;
+    /* border-spacing: 12px; */
+  
+}
 .button {
+    height: 35px;
     text-transform: capitalize;
-    padding: .7rem 1.5rem;
+    width: 100px;
+    text-align: center;
     border: none;
     border-radius: 50px;
     background-color: #1D9BF0;
     color: white;
     font-size: 1rem;
+    margin:10px ;
 }
 .tweet{
     display: flex;
