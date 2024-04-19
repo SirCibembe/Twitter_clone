@@ -6,10 +6,10 @@ export default function TweetTitle (props){
 
     return (
         <div className="tweet-title">
-            <TweetTitleAuthor value={props.value.author} />
-            <TweetTitleDetails value={props.value.detail} />
+            <TweetTitleAuthor value={props.value?.author} />
+            <TweetTitleDetails value={props.value?.detail} />
             <TweetTitleDetails value="." />
-            <TweetTitleDetails value={props.value.time} />
+            <TweetTitleDetails value={props.value?.time} />
         </div>
     )
 }

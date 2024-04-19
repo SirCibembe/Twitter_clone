@@ -17,15 +17,15 @@ export default function TweetActions (props){
         <div className="tweet-actions">
             <TweetAction 
                 icon={Reply}   
-                value={props.value.reply}
+                value={props.value?.reply}
             />
-            <TweetAction icon={Retweet} value={props.value.retweet} />
+            <TweetAction icon={Retweet} value={props.value?.retweet} />
             <TweetAction 
                 icon={isShown ? heartIcon : Reacti} 
-                value={isShown ? +props.value.react + 1 : props.value.react } 
+                value={isShown ? +props.value.react + 1 : props.value?.react } 
                 handleClick={changeValue}
             />
-            <TweetAction icon={Share} value={props.value.share} />
+            <TweetAction icon={Share} value={props.value?.share} />
         </div>
     )
 }

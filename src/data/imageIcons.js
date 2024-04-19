@@ -32,7 +32,6 @@ import twitterPostsJSON from './initial-data.json';
 
 export const twitterCurrentUserInDB = [...twitterPostsJSON['current-user'].tweets];
 export const twitterPostInDB = [...twitterCurrentUserInDB, ...twitterPostsJSON.media];
-
 export {
    Private,
    ProfilePhoto,
