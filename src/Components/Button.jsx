@@ -1,28 +1,34 @@
-
 import React, { useState } from "react";
 
 export default function Button() {
-    const [buttonSize, setButtonSize] = useState(16);
-    const [isReduced, setIsReduced] = useState(false);
+    const [clicked, setClicked] = useState(false);
 
     const handleClick = () => {
-        setTimeout(() => {
-            setButtonSize(buttonSize * 0.9)
-        }, 20)
-        // if (!isReduced) {
-        //     setButtonSize(16);
-        // } else {
-        //     setButtonSize(buttonSize * 0.9);
-        // }
-        // setIsReduced(!isReduced);
-        //setButtonSize(16)
+        if (!clicked) {
+            setClicked(true);
+            setTimeout(() => {
+                setClicked(false);
+            }, 1000); // Retour à l'état initial après 1000 millisecondes (1 seconde)
+        }
+    };
+
+    const buttonStyle = {
+        fontSize: "1rem",
+        width: "100px" ,
+        heigth:"20px",
+        padding: "0.5rem 1rem",
+        borderRadius: "9999px",
+        backgroundColor: "#1D9BF0",
+        color: "white",
+        transition: "transform 0.955s ",
+        transform: clicked ? "translateX(-10px)" : "translateX(0)",
     };
 
     return (
-        <button 
-            className="text-transform: capitalize px-4 py-2 rounded-full bg-[#1D9BF0] text-white text-sm" 
-            style={{ fontSize: buttonSize }} 
-            onClick={handleClick} 
+        <button
+            className="text-transform:capitalize"
+            style={buttonStyle}
+            onClick={handleClick}
         >
             Tweet
         </button>
